@@ -11,17 +11,17 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["cek"]
-START_COMMAND : ["mulai"]
-HELP_COMMAND : ["bantuan"]
-SETTINGS_COMMAND : ["pengaturan", "atur"]
+PING_COMMAND : ["cek", "ping"]
+START_COMMAND : ["mulai", "start"]
+HELP_COMMAND : ["bantuan", "help"]
+SETTINGS_COMMAND : ["pengaturan", "settings", "setting", "set", "atur"]
 RELOAD_COMMAND : ["cekadmin", "reload"]
 GSTATS_COMMAND : ["gstatus"]
-STATS_COMMAND : ["status"]
-LANGUAGE_COMMAND : ["lang", "language", "bahasa"]
+STATS_COMMAND : ["status", "stats"]
+LANGUAGE_COMMAND : ["lang", "language", "languanges", "bahasa"]
 
 # Play Commands
-PLAY_COMMAND : ["p", "pvid", "cp", "cpvid", "paksa", "vidpaksa", "cppaksa", "cpvidpaksa"]
+PLAY_COMMAND : ["putar", "vputar", "cputar", "cvputar", "paksa", "vpaksa", "cpaksa", "cvpaksa", "play"]
 PLAYMODE_COMMAND : ["pmode"]
 CHANNELPLAY_COMMAND : ["pchannel"]
 STREAM_COMMAND : ["siar", "csiar", "siarpaksa"]
