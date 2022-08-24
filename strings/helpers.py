@@ -9,51 +9,53 @@
 
 HELP_1 = """✅**<u>Admin Commands:</u>**
 
-**c** stands for channel play.
+Gunakan **c** di awal untuk siaran Channel.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
-
+/pause, /jeda atau /cjeda, /cpause - Jeda musik yang sedang diputar.
+/resume, /lanjut atau /clanjut, /cresume- Melanjutkan musik yang dijeda.
+/mute, /bisu atau /cbisu, /cmute- Bisukan pemutar musik.
+/unmute, /gbisu atau /cgbisu, /cunmute- Pemutar musik dapat berbicara lagi.
+/skip, /loncat atau /cloncat, /cskip- Meloncat ke lagu selanjutnya.
+/stop, /berhenti atau /cberhenti, /cstop- Menghentikan musik yang diputar.
+/shuffle, /acak atau /cacak, /cshuffle- Mengacak daftar musik.
+/seek atau /cseek - Menggeser maju durasi lagu yang kamu putar.
+/seekback atau /cseekback - Menggeset mundur durasi lagu yang kamu putar.
+/restart atau /reset - Restart bot di Grup mu .
 
 ✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
+/skip, /loncat atau /cloncat, /cskip [Number(example: 3)] 
+    - Loncat musik ke spesifik nomer antrian. Contoh /loncat 3 akan meloncat musik ke antrian musik yang ketiga dan akan melewati lagu 1 dan 2 di antrian.
     - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
 
 ✅<u>**Loop Play:**</u>
 /loop or /cloop [enable/disable] or [Numbers between 1-10] 
+    - Ketika aktif, bot mengulang lagu yang sedang aktif untuk 1-10 kali di voice chat. Bawaannya sih 10 kali.
     - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
 
 ✅<u>**Auth Users:**</u>
 Auth Users can use admin commands without admin rights in your chat.
+Pengguna Otentik dapat memakai perintah admin tanpa menjadi admin.
 
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
+/auth, /izinkan [Username] - Memberi izin otentik kepada pengguna.
+/unauth, /lepasizin [Username] - Melepaskan izin otentik dari pengguna.
+/authusers, /cekpengguna - Melihat daftar pengguna otentik."""
 
 
 HELP_2 = """✅<u>**Play Commands:**</u>
 
-Available Commands = play , vplay , cplay
+Available Commands = play , vplay , cplay , putar , vputar , cputar
 
-ForcePlay Commands = playforce , vplayforce , cplayforce
+ForcePlay Commands = playforce , vplayforce , cplayforce , paksa , vpaksa , cpaksa
 
-**c** stands for channel play.
-**v** stands for video play.
-**force** stands for force play.
+**c** stands for channel play, untuk pemutar di channel.
+**v** stands for video play, untuk pemutwr video.
+**force, paksa** stands for force play, untuk pemutar paksa.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/putar or /vputar or /cputar  - Bot akan memutar lagu atau siaran yang telah kamu antri di obrolan suara.
 
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
+/playforce or /vplayforce or /cplayforce -  **Malas** jelasin, intinya perintah ini berhentiin lagu yang diputar terus memutar lagu yang baru diantri.
 
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
+/channelplay [Chat username or id] or [Disable] - Menghubungkan channel ke grup, coba aja sendiri ya.
 
 
 ✅**<u>Bot's Server Playlists:</u>**
