@@ -16,51 +16,51 @@ START_COMMAND : ["mulai", "start"]
 HELP_COMMAND : ["bantuan", "help"]
 SETTINGS_COMMAND : ["pengaturan", "settings", "setting", "set", "atur"]
 RELOAD_COMMAND : ["cekadmin", "reload"]
-GSTATS_COMMAND : ["gstatus"]
+GSTATS_COMMAND : ["gstatus", "gstats"]
 STATS_COMMAND : ["status", "stats"]
 LANGUAGE_COMMAND : ["lang", "language", "languanges", "bahasa"]
 
 # Play Commands
-PLAY_COMMAND : ["putar", "vputar", "cputar", "cvputar", "paksa", "vpaksa", "cpaksa", "cvpaksa", "play"]
-PLAYMODE_COMMAND : ["pmode"]
-CHANNELPLAY_COMMAND : ["pchannel"]
-STREAM_COMMAND : ["siar", "csiar", "siarpaksa"]
+PLAY_COMMAND : ["putar", "vputar", "cputar", "cvputar", "paksa", "vpaksa", "cpaksa", "cvpaksa", "play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode"]
+CHANNELPLAY_COMMAND : ["channelplay", "channelputar"]
+STREAM_COMMAND : ["siar", "csiar", "siarpaksa", "cstream", "stream", "streamforce"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["hapuspl"]
+PLAYLIST_COMMAND : ["daftarlagu", "playlist"]
+DELETEPLAYLIST_COMMAND : ["hapusplaylist", "deleteplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["q","qchannel", "pemutar", "cpemutar", "berlangsung", "cberlangsung"]
-SONG_COMMAND : ["musik", "video"]
-LYRICS_COMMAND : ["lirik"]
+QUEUE_COMMAND : ["q", "queue", "antrian", "qchannel", "pemutar", "player", "cpemutar", "cplayer", "cplaying", "playing", "berlangsung", "cberlangsung"]
+SONG_COMMAND : ["musik", "song", "video"]
+LYRICS_COMMAND : ["lirik", "lyrics", "lyric"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["izinkan"]
-UNAUTH_COMMAND : ["hapusizin"]
-AUTHUSERS_COMMAND : ["yangdibolehkan", "cekuser"]
-PAUSE_COMMAND : ["jeda", "cjeda"]
-RESUME_COMMAND : ["lanjut", "clanjut"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["berhenti", "udahan", "cberhenti", "cudahan"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["acak", "cacak"]
-LOOP_COMMAND : ["loop", "cloop"]
+AUTH_COMMAND : ["izinkan", "auth"]
+UNAUTH_COMMAND : ["lepasizin", "unauth"]
+AUTHUSERS_COMMAND : ["cekuser", "authusers"]
+PAUSE_COMMAND : ["jeda", "cjeda", "pause", "cpause"]
+RESUME_COMMAND : ["lanjut", "clanjut", "resumre", "cresume"]
+MUTE_COMMAND : ["bisu", "cbisu", "mute", "cmute"]
+UNMUTE_COMMAND : ["gbisu", "cgbisu" "unmute", "cunmute"]
+STOP_COMMAND : ["berhenti", "dah", "cberhenti", "cdah", "stop", "end", "cstop", "cend"]
+SKIP_COMMAND : ["loncat", "cloncat", "skip", "cskip"]
+SHUFFLE_COMMAND : ["acak", "cacak", "shuffle", "cshuffle"]
+LOOP_COMMAND : ["ulang", "culang", "loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
 RESTART_COMMAND : ["reset", "restart"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["tambahsudo", "addsudo"]
+DELSUDO_COMMAND : ["hpssudo", "delsudo"]
+SUDOUSERS_COMMAND : ["ceksudo", "daftarsudo", "sudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["pengumuman", "broadcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -68,7 +68,7 @@ WHITELISTCHAT_COMMAND : ["whitelistchat"]
 BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
 
 # Video Calls Command
-VIDEOLIMIT_COMMAND : ["set_video_limit"]
+VIDEOLIMIT_COMMAND : ["batasvideo" "set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
@@ -95,16 +95,16 @@ UNAUTHORIZE_COMMAND : ["unauthorize"]
 AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block"]
-UNBLOCK_COMMAND : ["unblock"]
+BLOCK_COMMAND : ["block", "banned", "larang"]
+UNBLOCK_COMMAND : ["unblock", "unbanned", "bebaskan"]
 BLOCKED_COMMAND : ["blockedusers"]
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
+ACTIVEVC_COMMAND : ["activevc", "vcaktif"]
+ACTIVEVIDEO_COMMAND : ["activevideo", "vidaktif"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
