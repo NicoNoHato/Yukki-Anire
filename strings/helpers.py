@@ -48,7 +48,7 @@ Available Commands = play , vplay , cplay , putar , vputar , cputar
 ForcePlay Commands = playforce , vplayforce , cplayforce , paksa , vpaksa , cpaksa
 
 **c** stands for channel play, untuk pemutar di channel.
-**v** stands for video play, untuk pemutwr video.
+**v** stands for video play, untuk pemutar video.
 **force, paksa** stands for force play, untuk pemutar paksa.
 
 /putar or /vputar or /cputar  - Bot akan memutar lagu atau siaran yang telah kamu antri di obrolan suara.
